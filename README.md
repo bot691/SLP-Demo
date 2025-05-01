@@ -66,19 +66,19 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/phoenix/gt_1.gif" width="150"></td>
-    <td><img src="assets/phoenix/gt_2.gif" width="150"></td>
-    <td><img src="assets/phoenix/gt_3.gif" width="150"></td>
-    <td><img src="assets/phoenix/gt_4.gif" width="150"></td>
-    <td><img src="assets/phoenix/gt_5.gif" width="150"></td>
+    <td><img src="assets/phoenix/gt_1.gif" width="110"></td>
+    <td><img src="assets/phoenix/gt_2.gif" width="110"></td>
+    <td><img src="assets/phoenix/gt_3.gif" width="110"></td>
+    <td><img src="assets/phoenix/gt_4.gif" width="110"></td>
+    <td><img src="assets/phoenix/gt_5.gif" width="110"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/phoenix/out_1.gif" width="150"></td>
-    <td><img src="assets/phoenix/out_2.gif" width="150"></td>
-    <td><img src="assets/phoenix/out_3.gif" width="150"></td>
-    <td><img src="assets/phoenix/out_4.gif" width="150"></td>
-    <td><img src="assets/phoenix/out_5.gif" width="150"></td>
+    <td><img src="assets/phoenix/out_1.gif" width="110"></td>
+    <td><img src="assets/phoenix/out_2.gif" width="110"></td>
+    <td><img src="assets/phoenix/out_3.gif" width="110"></td>
+    <td><img src="assets/phoenix/out_4.gif" width="110"></td>
+    <td><img src="assets/phoenix/out_5.gif" width="110"></td>
   </tr>
 </table>
 
@@ -100,19 +100,19 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/h2s/gt_2.gif" width="150"></td>
-    <td><img src="assets/h2s/gt_3.gif" width="150"></td>
-    <td><img src="assets/h2s/gt_1.gif" width="150"></td>
-    <td><img src="assets/h2s/gt_4.gif" width="150"></td>
-    <td><img src="assets/h2s/gt_5.gif" width="150"></td>
+    <td><img src="assets/h2s/gt_2.gif" width="110"></td>
+    <td><img src="assets/h2s/gt_3.gif" width="110"></td>
+    <td><img src="assets/h2s/gt_1.gif" width="110"></td>
+    <td><img src="assets/h2s/gt_4.gif" width="110"></td>
+    <td><img src="assets/h2s/gt_5.gif" width="110"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/h2s/out_2.gif" width="150"></td>
-    <td><img src="assets/h2s/out_3.gif" width="150"></td>
-    <td><img src="assets/h2s/out_1.gif" width="150"></td>
-    <td><img src="assets/h2s/out_4.gif" width="150"></td>
-    <td><img src="assets/h2s/out_5.gif" width="150"></td>
+    <td><img src="assets/h2s/out_2.gif" width="110"></td>
+    <td><img src="assets/h2s/out_3.gif" width="110"></td>
+    <td><img src="assets/h2s/out_1.gif" width="110"></td>
+    <td><img src="assets/h2s/out_4.gif" width="110"></td>
+    <td><img src="assets/h2s/out_5.gif" width="110"></td>
   </tr>
 </table>
 
