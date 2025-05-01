@@ -14,7 +14,7 @@
 |PT           | $11.65$ | $12.38$ | $5.70$  |  $3.65$  |  $2.74$ |
 |MDM           | $21.50$ | $23.26$ | $14.47$  |  $10.31$  |  $7.93$ |
 |SinMDM           | $19.42$ | $22.10$ | $12.83$  |  $8.57$  |  $6.28$ |
-|*Ours          | $$\textcolor{yellow}{24.15}$$ | $$\textcolor{yellow}{26.37}$$ | $$\textcolor{yellow}{16.78}$$ |  $$\textcolor{yellow}{11.85}$$  |  $$\textcolor{yellow}{9.03}$$ |
+|*Ours          | $$\textcolor{orange}{24.15}$$ | $$\textcolor{orange}{26.37}$$ | $$\textcolor{orange}{16.78}$$ |  $$\textcolor{orange}{11.85}$$  |  $$\textcolor{orange}{9.03}$$ |
 </div>
 
 <div align="center">
@@ -28,7 +28,7 @@
 |Ground truth           | $17.54$ | $22.15$ | $11.01$  |  $6.47$  |  $3.91$ |
 |MDM           | $15.53$ | $18.06$ | $8.27$  |  $4.68$  |  $2.58$ |
 |SinMDM           | $16.10$ | $19.74$ | $9.37$  |  $5.40$  |  $3.15$ |
-|*Ours          | $$\textcolor{yellow}{16.82}$$ | $$\textcolor{yellow}{19.65}$$ | $$\textcolor{yellow}{9.50}$$ |  $$\textcolor{yellow}{5.51}$$  |  $$\textcolor{yellow}{3.33}$$ |
+|*Ours          | $$\textcolor{orange}{16.82}$$ | $$\textcolor{orange}{19.65}$$ | $$\textcolor{orange}{9.50}$$ |  $$\textcolor{orange}{5.51}$$  |  $$\textcolor{orange}{3.33}$$ |
 </div>
 
 
