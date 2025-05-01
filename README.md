@@ -34,38 +34,55 @@
 
 
 ### Qualitative evaluation
+<style>
+  table.fixed {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table.fixed td, table.fixed th {
+    width: 120px;
+    word-wrap: break-word;
+    vertical-align: top;
+    text-align: left;
+  }
+</style>
+
 
 <b>PHOENIX14T</b>
 ![screenshot](assets/phoenix/phoenix.png)
 
-<table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+<table class="fixed">
+  <colgroup>
+    <col span="6" style="width: 120px;">
+  </colgroup>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Text</strong></td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">am freitag ist es im südwesten zunächst freundlich
+    <td><strong>Text</strong></td>
+    <td><em>am freitag ist es im südwesten zunächst freundlich
     </td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">und etwas kälter wird es dann im laufe des sonntags von osten
+    <td><em>und etwas kälter wird es dann im laufe des sonntags von osten
     </td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">und nun die wettervorhersage für morgen mittwoch den siebenundzwanzigsten januar</td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">am tag neunzehn grad an der nordsee und sechsundzwanzig grad in teilen thüringens und sachsens
+    <td><em>und nun die wettervorhersage für morgen mittwoch den siebenundzwanzigsten januar</td>
+    <td><em>am tag neunzehn grad an der nordsee und sechsundzwanzig grad in teilen thüringens und sachsens
     </td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">morgen vormittag an der ostsee noch starke böen sonst weht der wind schwach bis mäßig aus ost bis südost
+    <td><em>morgen vormittag an der ostsee noch starke böen sonst weht der wind schwach bis mäßig aus ost bis südost
     </td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ground Truth</strong></td>
-    <td><img src="assets/phoenix/gt_1.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/gt_2.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/gt_3.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/gt_4.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/gt_5.gif" style="width: 120px; height: 90px;"></td>
+    <td><strong>Ground Truth</strong></td>
+    <td><img src="assets/phoenix/gt_1.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/gt_2.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/gt_3.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/gt_4.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/gt_5.gif" width="120" height="90"></td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ours</strong></td>
-    <td><img src="assets/phoenix/out_1.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/out_2.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/out_3.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/out_4.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/phoenix/out_5.gif" style="width: 120px; height: 90px;"></td>
+    <td><strong>Ours</strong></td>
+    <td><img src="assets/phoenix/out_1.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/out_2.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/out_3.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/out_4.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/out_5.gif" width="120" height="90"></td>
   </tr>
 </table>
 
@@ -73,30 +90,33 @@
 <b>HOW2SIGN</b>
 ![screenshot](assets/h2s/h2s.png)
 
-<table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+<table class="fixed">
+  <colgroup>
+    <col span="6" style="width: 120px;">
+  </colgroup>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Text</strong></td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">We got our martini glass and a strainer.</td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">So I'm going to toss it to Ryan; he's going to set it up for a foot brush for me.</td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">I'm trying to define the edges and then kinda just dry-brush it to fill it in a little bit.</td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">Then begin the posture and the movement is what we're going to do, which is gathering chi from heaven and earth.</td>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">Okay, so now that I have this pressed down, I'm going to go ahead and flip these pants back out, because I need to see that excess fabric, so I can determine where I'm going to cut it off.</td>
+    <td><strong>Text</strong></td>
+    <td><em>We got our martini glass and a strainer.</td>
+    <td><em>So I'm going to toss it to Ryan; he's going to set it up for a foot brush for me.</td>
+    <td><em>I'm trying to define the edges and then kinda just dry-brush it to fill it in a little bit.</td>
+    <td><em>Then begin the posture and the movement is what we're going to do, which is gathering chi from heaven and earth.</td>
+    <td><em>Okay, so now that I have this pressed down, I'm going to go ahead and flip these pants back out, because I need to see that excess fabric, so I can determine where I'm going to cut it off.</td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ground Truth</strong></td>
-    <td><img src="assets/h2s/gt_2.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/gt_3.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/gt_1.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/gt_4.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/gt_5.gif" style="width: 120px; height: 90px;"></td>
+    <td><strong>Ground Truth</strong></td>
+    <td><img src="assets/h2s/gt_2.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/gt_3.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/gt_1.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/gt_4.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/gt_5.gif" width="120" height="90"></td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ours</strong></td>
-    <td><img src="assets/h2s/out_2.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/out_3.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/out_1.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/out_4.gif" style="width: 120px; height: 90px;"></td>
-    <td><img src="assets/h2s/out_5.gif" style="width: 120px; height: 90px;"></td>
+    <td><strong>Ours</strong></td>
+    <td><img src="assets/h2s/out_2.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/out_3.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/out_1.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/out_4.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/out_5.gif" width="120" height="90"></td>
   </tr>
 </table>
 
