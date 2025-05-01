@@ -1,4 +1,4 @@
-# SIGN LANGUAGE PRODUCTION (Demo)
+# SIGN LANGUAGE PRODUCTION - SLP (Demo)
 <!-- ## Quick Start -->
 <!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13k2W21wlAKvPmMw6yp2ZCzuwtMmdu1ca?usp=sharing) -->
 
@@ -54,7 +54,7 @@
 
 <table class="fixed">
   <colgroup>
-    <col span="6" style="width: 120px;">
+    <col span="6" style="width: 150px;">
   </colgroup>
   <tr>
     <td><strong>Text</strong></td>
@@ -66,19 +66,19 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/phoenix/gt_1.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/gt_2.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/gt_3.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/gt_4.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/gt_5.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/gt_1.gif" width="150"></td>
+    <td><img src="assets/phoenix/gt_2.gif" width="150"></td>
+    <td><img src="assets/phoenix/gt_3.gif" width="150"></td>
+    <td><img src="assets/phoenix/gt_4.gif" width="150"></td>
+    <td><img src="assets/phoenix/gt_5.gif" width="150"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/phoenix/out_1.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/out_2.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/out_3.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/out_4.gif" width="120" height="90"></td>
-    <td><img src="assets/phoenix/out_5.gif" width="120" height="90"></td>
+    <td><img src="assets/phoenix/out_1.gif" width="150"></td>
+    <td><img src="assets/phoenix/out_2.gif" width="150"></td>
+    <td><img src="assets/phoenix/out_3.gif" width="150"></td>
+    <td><img src="assets/phoenix/out_4.gif" width="150"></td>
+    <td><img src="assets/phoenix/out_5.gif" width="150"></td>
   </tr>
 </table>
 
@@ -100,22 +100,26 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/h2s/gt_2.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/gt_3.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/gt_1.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/gt_4.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/gt_5.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/gt_2.gif" width="150"></td>
+    <td><img src="assets/h2s/gt_3.gif" width="150"></td>
+    <td><img src="assets/h2s/gt_1.gif" width="150"></td>
+    <td><img src="assets/h2s/gt_4.gif" width="150"></td>
+    <td><img src="assets/h2s/gt_5.gif" width="150"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/h2s/out_2.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/out_3.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/out_1.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/out_4.gif" width="120" height="90"></td>
-    <td><img src="assets/h2s/out_5.gif" width="120" height="90"></td>
+    <td><img src="assets/h2s/out_2.gif" width="150"></td>
+    <td><img src="assets/h2s/out_3.gif" width="150"></td>
+    <td><img src="assets/h2s/out_1.gif" width="150"></td>
+    <td><img src="assets/h2s/out_4.gif" width="150"></td>
+    <td><img src="assets/h2s/out_5.gif" width="150"></td>
   </tr>
 </table>
 
+## Deployment
+We deploy the SLP model in an Android app, where users can input text by typing, speaking, or capturing an image. APIs process these inputs to extract raw text, which is then passed to our SLP model. The user receives a video of a 3D human mesh performing the corresponding sign language.
+
+<img src="assets/app_demo.gif" width="300">
 
 ## Acknowledgments
 
