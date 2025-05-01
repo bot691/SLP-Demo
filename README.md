@@ -38,7 +38,7 @@
 <b>PHOENIX14T</b>
 ![screenshot](assets/phoenix/phoenix.png)
 
-<table class="center" style="table-layout: fixed; width: 100%;">
+<table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
   <tr>
     <td><strong>Text</strong></td>
     <td>am freitag ist es im südwesten zunächst freundlich
@@ -73,7 +73,7 @@
 <b>HOW2SIGN</b>
 ![screenshot](assets/h2s/h2s.png)
 
-<table class="center" style="table-layout: fixed; width: 100%;">
+<table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
   <tr>
     <td><strong>Text</strong></td>
     <td>We got our martini glass and a strainer.</td>
