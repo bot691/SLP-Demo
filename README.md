@@ -40,19 +40,19 @@
 
 <table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Text</strong></td>
-    <td style="width: 120px; vertical-align: top;">am freitag ist es im südwesten zunächst freundlich
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Text</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">am freitag ist es im südwesten zunächst freundlich
     </td>
-    <td style="width: 120px; vertical-align: top;">und etwas kälter wird es dann im laufe des sonntags von osten
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">und etwas kälter wird es dann im laufe des sonntags von osten
     </td>
-    <td style="width: 120px; vertical-align: top;">und nun die wettervorhersage für morgen mittwoch den siebenundzwanzigsten januar</td>
-    <td style="width: 120px; vertical-align: top;">am tag neunzehn grad an der nordsee und sechsundzwanzig grad in teilen thüringens und sachsens
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">und nun die wettervorhersage für morgen mittwoch den siebenundzwanzigsten januar</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">am tag neunzehn grad an der nordsee und sechsundzwanzig grad in teilen thüringens und sachsens
     </td>
-    <td style="width: 120px; vertical-align: top;">morgen vormittag an der ostsee noch starke böen sonst weht der wind schwach bis mäßig aus ost bis südost
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">morgen vormittag an der ostsee noch starke böen sonst weht der wind schwach bis mäßig aus ost bis südost
     </td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Ground Truth</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ground Truth</strong></td>
     <td><img src="assets/phoenix/gt_1.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/phoenix/gt_2.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/phoenix/gt_3.gif" style="width: 120px; height: 90px;"></td>
@@ -60,7 +60,7 @@
     <td><img src="assets/phoenix/gt_5.gif" style="width: 120px; height: 90px;"></td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Ours</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ours</strong></td>
     <td><img src="assets/phoenix/out_1.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/phoenix/out_2.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/phoenix/out_3.gif" style="width: 120px; height: 90px;"></td>
@@ -75,15 +75,15 @@
 
 <table class="center" style="table-layout: fixed; width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Text</strong></td>
-    <td style="width: 120px; vertical-align: top;">We got our martini glass and a strainer.</td>
-    <td style="width: 120px; vertical-align: top;">So I'm going to toss it to Ryan; he's going to set it up for a foot brush for me.</td>
-    <td style="width: 120px; vertical-align: top;">I'm trying to define the edges and then kinda just dry-brush it to fill it in a little bit.</td>
-    <td style="width: 120px; vertical-align: top;">Then begin the posture and the movement is what we're going to do, which is gathering chi from heaven and earth.</td>
-    <td style="width: 120px; vertical-align: top;">Okay, so now that I have this pressed down, I'm going to go ahead and flip these pants back out, because I need to see that excess fabric, so I can determine where I'm going to cut it off.</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Text</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">We got our martini glass and a strainer.</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">So I'm going to toss it to Ryan; he's going to set it up for a foot brush for me.</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">I'm trying to define the edges and then kinda just dry-brush it to fill it in a little bit.</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">Then begin the posture and the movement is what we're going to do, which is gathering chi from heaven and earth.</td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;">Okay, so now that I have this pressed down, I'm going to go ahead and flip these pants back out, because I need to see that excess fabric, so I can determine where I'm going to cut it off.</td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Ground Truth</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ground Truth</strong></td>
     <td><img src="assets/h2s/gt_2.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/h2s/gt_3.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/h2s/gt_1.gif" style="width: 120px; height: 90px;"></td>
@@ -91,7 +91,7 @@
     <td><img src="assets/h2s/gt_5.gif" style="width: 120px; height: 90px;"></td>
   </tr>
   <tr>
-    <td style="width: 120px; vertical-align: top;"><strong>Ours</strong></td>
+    <td style="width: 120px; vertical-align: top; word-wrap: break-word;"><strong>Ours</strong></td>
     <td><img src="assets/h2s/out_2.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/h2s/out_3.gif" style="width: 120px; height: 90px;"></td>
     <td><img src="assets/h2s/out_1.gif" style="width: 120px; height: 90px;"></td>
