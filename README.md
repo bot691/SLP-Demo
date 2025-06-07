@@ -1,6 +1,6 @@
 # SIGN LANGUAGE PRODUCTION - SLP (Demo)
 <!-- ## Quick Start -->
-<!-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13k2W21wlAKvPmMw6yp2ZCzuwtMmdu1ca?usp=sharing) -->
+<!-- [![Open In Colab](https://colab.research.google.com/static/images/colab-badge.svg)](https://colab.research.google.com/drive/13k2W21wlAKvPmMw6yp2ZCzuwtMmdu1ca?usp=sharing) -->
 
 ## Quick comparison to SOTA methods
 ### Quantitative evaluation
@@ -50,7 +50,7 @@
 
 
 <b>PHOENIX14T</b>
-![screenshot](assets/phoenix/phoenix.png)
+![screenshot](static/images/phoenix/phoenix.png)
 
 <table class="fixed">
   <colgroup>
@@ -66,25 +66,25 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/phoenix/gt_1.gif" width="110"></td>
-    <td><img src="assets/phoenix/gt_2.gif" width="110"></td>
-    <td><img src="assets/phoenix/gt_3.gif" width="110"></td>
-    <td><img src="assets/phoenix/gt_4.gif" width="110"></td>
-    <td><img src="assets/phoenix/gt_5.gif" width="110"></td>
+    <td><img src="static/images/phoenix/gt_1.gif" width="110"></td>
+    <td><img src="static/images/phoenix/gt_2.gif" width="110"></td>
+    <td><img src="static/images/phoenix/gt_3.gif" width="110"></td>
+    <td><img src="static/images/phoenix/gt_4.gif" width="110"></td>
+    <td><img src="static/images/phoenix/gt_5.gif" width="110"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/phoenix/out_1.gif" width="110"></td>
-    <td><img src="assets/phoenix/out_2.gif" width="110"></td>
-    <td><img src="assets/phoenix/out_3.gif" width="110"></td>
-    <td><img src="assets/phoenix/out_4.gif" width="110"></td>
-    <td><img src="assets/phoenix/out_5.gif" width="110"></td>
+    <td><img src="static/images/phoenix/out_1.gif" width="110"></td>
+    <td><img src="static/images/phoenix/out_2.gif" width="110"></td>
+    <td><img src="static/images/phoenix/out_3.gif" width="110"></td>
+    <td><img src="static/images/phoenix/out_4.gif" width="110"></td>
+    <td><img src="static/images/phoenix/out_5.gif" width="110"></td>
   </tr>
 </table>
 
 
 <b>HOW2SIGN</b>
-![screenshot](assets/h2s/h2s.png)
+![screenshot](static/images/h2s/h2s.png)
 
 <table class="fixed">
   <colgroup>
@@ -100,26 +100,26 @@
   </tr>
   <tr>
     <td><strong>Ground Truth</strong></td>
-    <td><img src="assets/h2s/gt_2.gif" width="110"></td>
-    <td><img src="assets/h2s/gt_3.gif" width="110"></td>
-    <td><img src="assets/h2s/gt_1.gif" width="110"></td>
-    <td><img src="assets/h2s/gt_4.gif" width="110"></td>
-    <td><img src="assets/h2s/gt_5.gif" width="110"></td>
+    <td><img src="static/images/h2s/gt_2.gif" width="110"></td>
+    <td><img src="static/images/h2s/gt_3.gif" width="110"></td>
+    <td><img src="static/images/h2s/gt_1.gif" width="110"></td>
+    <td><img src="static/images/h2s/gt_4.gif" width="110"></td>
+    <td><img src="static/images/h2s/gt_5.gif" width="110"></td>
   </tr>
   <tr>
     <td><strong>Ours</strong></td>
-    <td><img src="assets/h2s/out_2.gif" width="110"></td>
-    <td><img src="assets/h2s/out_3.gif" width="110"></td>
-    <td><img src="assets/h2s/out_1.gif" width="110"></td>
-    <td><img src="assets/h2s/out_4.gif" width="110"></td>
-    <td><img src="assets/h2s/out_5.gif" width="110"></td>
+    <td><img src="static/images/h2s/out_2.gif" width="110"></td>
+    <td><img src="static/images/h2s/out_3.gif" width="110"></td>
+    <td><img src="static/images/h2s/out_1.gif" width="110"></td>
+    <td><img src="static/images/h2s/out_4.gif" width="110"></td>
+    <td><img src="static/images/h2s/out_5.gif" width="110"></td>
   </tr>
 </table>
 
 ## Deployment
 We deploy the SLP model in an Android app, where users can input text by typing, speaking, or capturing an image. APIs process these inputs to extract raw text, which is then passed to our SLP model. The user receives a video of a 3D human mesh performing the corresponding sign language.
 
-<img src="assets/app_demo.gif" width="300">
+<img src="static/images/app_demo.gif" width="300">
 
 ## Acknowledgments
 
