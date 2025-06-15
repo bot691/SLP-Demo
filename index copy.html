@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Sign Language Production">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SLP: Sign Language Production</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Temporal Diffuser: Timing Scale-Aware Modulation for Sign Language Production</h1>
+          <!-- <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a>Kim-Thuy Kha</a><sup>a</sup>,</span>
+            <span class="author-block">
+              <a>Anh H. Vo</a><sup>b</sup>,</span>
+            <span class="author-block">
+              <a>Van-Vang Le</a><sup>a,*</sup>,</span>
+            <span class="author-block">
+              <a>Oh-Young Song</a><sup>c</sup> and </span>
+            <span class="author-block">
+              <a>Yong-Guk Kim</a><sup>b,*</sup></span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>a</sup>Faculty of Information Technology, Ton Duc Thang University,</span>
+            <span class="author-block"><sup>b</sup>Department of Computer Engineering, Sejong University,</span>
+            <span class="author-block"><sup>a</sup>Department of Software, Sejong University</span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="teaser" src="./static/images/gt_1.gif" alt="Teaser GIF" style="height: 100%;" />
+      <h2 class="subtitle has-text-centered">
+        The left is the original video, the right is produced by our SignSAM.
+      </h2>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="item item-shiba">
+          <!-- <img id="steve" src="./static/images/test.gif" style="height: 100%;" /> -->
+            <video autoplay muted loop playsinline style="width: 100%; object-fit: cover">
+                <source src="./static/videos/test.mp4" type="video/mp4" />
+            </video>
+        </div>
+      </div>
+    </div>
+  </div>
+<h2 class="subtitle has-text-centered">
+The left is the original video, the right is produced by our SignSAM.
+</h2>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advances in Sign Language Production (SLP) highlight denoising diffusion 
+            models as promising alternatives to traditional autoregressive methods. Most existing 
+            approaches follow a two-stage pipeline that encodes sign motion into discrete latent 
+            codes, often sacrificing spatio-temporal fidelity and requiring gloss annotations or 
+            complex codebooks. Transformer-based models aim to simplify this but often produce 
+            over-smoothed, unnatural motions. We introduce Sign Language Production with Scale-Aware 
+            Modulation SignSAM, a novel single-stage, gloss-free SLP framework that directly 
+            synthesizes motion in continuous space, preserving fine temporal details. At its core is 
+            a Spatio-Temporal U-Net that learns compact temporal features by jointly downscaling frames 
+            and feature dimensions, reducing computational cost. To further enhance temporal precision, 
+            we propose a Timing Scale-Aware Modulation module that fuses multi-scale temporal features 
+            for better motion coherence. Experiments on PHOENIX14T and How2Sign show that SignSAM 
+            achieves state-of-the-art fluency, accuracy, and naturalness, offering an efficient and 
+            expressive solution for SLP.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Qualitative evaluation</h2>
+
+        <!-- PHOENIX14T. -->
+        <h3 class="title is-4">PHOENIX14T</h3>
+        <img src="./static/images/phoenix.png" style="display: block; margin: 0 auto; width: 75%; height: auto;" />
+        <br/>
+        <!--/ Interpolating. -->
+
+        <!-- How2Sign. -->
+        <h3 class="title is-4">How2Sign</h3>
+        <img src="./static/images/how2sign.png" style="display: block; margin: 0 auto; width: 75%; height: auto;" />
+
+        <!--/ Re-rendering. -->
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+
+  </div>
+</section>
+
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2021nerfies,
+  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+</body>
+</html>
